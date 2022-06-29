@@ -1,0 +1,108 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+a :hover {
+  color: white;
+  text-decoration: none;
+}
+.pnf {
+  max-width: 500px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#linker > a {
+  color: var(--buttonColor);
+}
+.navigation {
+  background-color: rgb(18, 18, 18);
+}
+
+:root {
+  --backColor: rgb(18, 18, 18);
+  --buttonColor: #4bb543;
+}
+
+/* .red {
+  border: solid red 1px;
+} */
+
+body {
+  background-color: black;
+}
+
+.home .search input {
+  width: 100%;
+  padding: 0px 5px;
+}
+
+.home .search input:focus {
+  outline: none;
+}
+
+.home .search button {
+  background-color: var(--backColor);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.home .Pcard {
+  background-color: var(--backColor);
+  color: white;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.home .Rcard {
+  background-color: var(--backColor);
+  color: white;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.home .Rcard .repo-card {
+  background-color: black;
+  color: white;
+}
+
+.home .Rcard .repo-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.linker {
+  color: var(--buttonColor);
+}
+
+.login {
+  height: 90vh;
+}
+
+.login .login-card {
+  color: white;
+  background-color: var(--backColor);
+}
+
+.login .login-card .github-image {
+  border-radius: 50px;
+}
+
+.login .login-card input {
+  width: 100%;
+  outline: none;
+}
+
+.login .login-card input:focus {
+  outline: none;
+}
+
+.login .login-card .login-button {
+  border: solid 2px var(--buttonColor);
+  border-radius: 5px;
+  background-color: #000000;
+  color: var(--buttonColor);
+}
